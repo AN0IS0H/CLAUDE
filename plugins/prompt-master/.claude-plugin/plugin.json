@@ -1,0 +1,8 @@
+{
+  "name": "prompt-master",
+  "description": "Generates optimized prompts for any AI tool (LLMs, coding agents, image/video AI) when explicitly asked to write, fix, improve, or adapt a prompt.",
+  "version": "1.8.0",
+  "author": {
+    "name": "nidhinjs"
+  }
+}

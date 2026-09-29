@@ -1,0 +1,14 @@
+{
+  "name": "prompt-master",
+  "owner": {
+    "name": "nidhinjs"
+  },
+  "description": "Marketplace for Prompt Master, a Claude skill that writes optimized prompts for any AI tool.",
+  "plugins": [
+    {
+      "name": "prompt-master",
+      "source": "./plugins/prompt-master",
+      "description": "Generates optimized prompts for any AI tool (LLMs, coding agents, image/video AI) when explicitly asked to write, fix, improve, or adapt a prompt."
+    }
+  ]
+}
