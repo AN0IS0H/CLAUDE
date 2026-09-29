@@ -10,17 +10,25 @@ A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or 
 
 ## 🚀 Installation
 
-### RECOMMENDED - Claude.ai (browser)
+### RECOMMENDED - Claude Code (plugin marketplace)
 
-1. Download this repo as a ZIP
-2. Go to **claude.ai → Sidebar → Customize → Skills → Upload a Skill**
+```
+/plugin marketplace add nidhinjs/prompt-master
+/plugin install prompt-master@prompt-master
+```
 
+### OR Claude.ai (browser)
 
-### OR Clone directly into Claude Code skills directory (Not Suggested)
+1. Download this repo as a ZIP and extract it
+2. Zip the `plugins/prompt-master/skills/prompt-master/` folder so `SKILL.md` sits at the top of the archive
+3. Go to **claude.ai → Sidebar → Customize → Skills → Upload a Skill**
+
+### OR Copy into Claude Code skills directory manually (Not Suggested)
 
 ```bash
+git clone https://github.com/nidhinjs/prompt-master.git
 mkdir -p ~/.claude/skills
-git clone https://github.com/nidhinjs/prompt-master.git ~/.claude/skills/prompt-master
+cp -r prompt-master/plugins/prompt-master/skills/prompt-master ~/.claude/skills/prompt-master
 ```
 
 ## 🔥 The Problem This Solves
